@@ -1,0 +1,15 @@
+a=[]
+n=int(input("Введите число элементов:"))
+for i in range(n):
+    b=int(input("Введите элементы массива:"))
+    a.append(b)
+
+for i in range(n-1):
+    for j in range(n-i-1):
+        if (a[j]>a[j+1]):
+            x=a[j]
+            a[j]=a[j+1]
+            a[j+1]=x
+
+print("Массив в порядке возрастания:", a)
+
