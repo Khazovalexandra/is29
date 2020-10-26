@@ -6,7 +6,7 @@ def rec(dir):
             print(file)
         if len(dirnames) != 0:
             for i in range(len(dirnames)):
-                rec(dir+'\\'+dirnames[i])
+                rec(dir+'\\'+drnames[i])
         return 0
 
-rec('C:/Users/Сергей/PycharmProjects/pythonProject1/proverka1.py')
+rec('C:/Users/Сергей/PycharmProjects')
